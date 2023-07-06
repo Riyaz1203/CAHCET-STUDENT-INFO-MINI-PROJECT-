@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    margin: 0;
+}
+
+header{
+	max-width: 100% ;
+	background-color: #2B2B2B;
+	height: 40px;
+
+}
+header h4{
+	line-height: 40px;
+	margin-left: 20px;
+	color: white;
+	font-size: 25px;
+}
+header .span2{
+	float: right;
+	margin-right: 10px;
+	line-height: 40px;
+	margin-top: -40px;
+	color: white;
+	
+}
+.fees:hover{
+	border: 2px solid #146C94;
+	-moz-box-shadow: 0 0 5px #999;
+	-webkit-box-shadow: 0 0 5px #999;
+	box-shadow: 0 0 15px #999;
+
+}
+.attendance:hover{
+	border: 2px  solid #146C94;
+	-moz-box-shadow: 0 0 5px #999;
+	-webkit-box-shadow: 0 0 5px #999;
+	box-shadow: 0 0 15px #999;
+}
+.menu{
+	position: absolute;
+	top: 7px;
+	right: 40px;
+	display: none;
+	color: white;
+}
+#closebar{
+	position: absolute;
+	top: 6px;
+	right: 40px;
+	font-style: bold;
+	font-size: 25px;
+	display: none;
+	color: white;
+	text-decoration: none;
+
+}
+
+
+#tive{
+	background-color:#2B2B2B ;
+	color: #146C94;
+}
+.span2:hover{
+	color: #146C94 ;
+
+}
+.menu:hover{
+	color: #146C94;
+}
+.navbar2 li{
+	border-bottom: 1px solid black;
+}
+.navbar2 li{
+
+	box-shadow: 
+    inset 2px 11px 3px -10px black,
+    inset 2px 11px 3px -10px black; 
+	display: inline-block;
+	width: 25%;
+    float: left;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+	padding: 5px;
+    margin: 0;
+	border-right: 1px solid  #2B2B2B;
+	background-color: #146C94;
+	transition-duration: 0.5s;
+}
+li:hover{
+	background-color:#2B2B2B ;
+	color: #146C94;
+	border-right: 1px solid  #146C94;
+}
+
+.image{
+	position: absolute;
+	float: left;
+	height: auto;
+	width: auto;
+	border:1px solid black;
+	margin: 100px;
+    padding: 50px;
+	left:-5px ;
+    border-radius: 5px;
+
+}
+.info{
+	position: relative;
+	width: 60%;
+	margin: 100px;
+	margin-left: 29% ;
+	height:auto;
+    padding: 30px;
+	border:1px solid black;
+	width: 60%;
+	color: #ffffff;
+	text-align: center;
+	font-size: 14px;	
+	border-radius: 5px;
+	z-index: 1;
+    
+}
+img{
+
+	height: 170px;
+	width: 170px;
+	border:2px solid rgb(106, 106, 106);
+	border-radius: 50%;
+	margin-top: 20px;
+
+	-webkit-box-shadow: 0 0 10px rgb(11, 0, 113);
+        box-shadow: 0 0 10px rgb(243, 243, 243);
+}
+.image h2{
+
+	color: #2B2B2B;
+	margin-top: 20px;
+ 	display: flex;
+ 	justify-content: center;
+
+}
+.image p{
+	 margin-top: 5px;
+	 display: flex;
+ 	 justify-content: center;
+	color: #146C94;
+
+}
+.info table{
+	margin-left: 40px;
+	color: black;
+	font-size: 20px;
+}
+.info table tr td{
+	padding-top: 30px;
+	float: center;
+	word-wrap: break-word;
+	max-width: 300px;
+
+}
+
+.c,.a{
+	float: left;
+	vertical-align: middle;
+}
+.c{
+	color:  #146C94;
+}
+.attendance{
+	position: absolute;
+	width: 28%;
+	left:70%;
+	border: 1px solid grey;
+	height: 43%;
+	top: 5%;
+	border-radius: 10px ;
+	z-index: 2;
+	transition-duration: 0.5s;
+
+}
+.fees{
+
+	position: absolute;
+	top: 52%;
+	width: 28%;
+	left:70%;
+	border: 1px solid grey;
+	height: 43%;
+	border-radius: 10px ;
+	z-index: 2;
+	transition-duration: 0.5s;
+
+}
+.attendance span{
+	position: absolute;
+	z-index: 3;
+	font-size: 100px;
+	color: black;
+	top: 10%;
+	left: 28%;
+}
+.attendance table{
+	margin-left: 30px;
+	margin-top: 100px;
+
+
+}
+.add{
+		font-size: 15px;
+		word-wrap: break-word;
+}
+.attv{
+	color: #146C94;
+}
+.attv1{
+	color: seagreen ;
+}
+.fees span{
+	position: absolute;
+	z-index: 3;
+	color: black;
+	font-size: 100px;
+	top: 8%;
+	left: 28%;
+
+}
+.fees table{
+	margin-left: 30px;
+	margin-top: 120px;
+}
+.fees table tr td{
+	
+	padding: 1px;
+	margin-top: 5px;
+}
+.fees .att{
+	float: left;
+
+}
+.attv2{
+	color: #DF2E38;
+}
+
+/*For Mobile phones*/
+@media screen and (max-width: 767px) {
+	*{
+		box-sizing: border-box;
+	}
+	.image{
+		width: 90%;
+		margin-top: 20px;
+		margin-left: 17.5px;
+	}
+	.info{
+		margin-top: 540px;
+		width: 90%;
+		height: 1200px;
+		margin-left: 17.5px;
+	}
+	.attendance{
+		position: absolute;
+		top: 550px;
+		left: 18px;
+		width: 90%;
+		height: 25%;
+	}
+	.fees{
+		position: absolute;
+		top: 870px;
+		left: 18px;
+		width: 90%;
+		height: 25%;
+	}
+	.info table {
+		margin-left: 10px;		
+
+	}
+	.fees table{
+		margin-top: -10px;
+		margin-left: -5px;	
+
+	}
+	.attendance span{
+		position: absolute;
+		z-index: 3;
+		font-size: 100px;
+		color: black;
+		top: 20%;
+		left: 35%;
+	}
+	.attendance table{
+		margin-top: 150px;
+		margin-left: 75px;	
+
+
+	}
+	.attv{
+		color:#146C94 ;
+	}
+	.fees span{
+		position: absolute;
+		z-index: 3;
+		color: black;
+		font-size: 100px;
+		top: 20%;
+		left: 35%;
+
+	}
+	.fees table{
+		position: absolute;
+		top: 65%;
+		left: 28%;
+	}
+	.fees table tr td{
+		padding: 1px;
+		margin-top: 5px;
+	}
+	
+	img{
+
+		margin-top: 20px;
+		height: 170px;
+		width: 170px;
+		border:2px solid black;
+		border-radius: 50%;
+		
+	}
+	.image h2{
+		color: #2B2B2B;
+		margin-top: 20px;
+ 		display: flex;
+ 		justify-content: center;
+		
+		
+	}
+	.image p{
+		
+ 		display: flex;
+ 		justify-content: center;
+		color: #146C94;
+	}
+	.add{
+		font-size: 15px;
+	}
+	.menu{
+		display: block;
+	}	
+	.navbar2{
+		position: absolute;
+		z-index: 2;
+		width: 100%;
+		height: 60%;
+		display: none;
+		background-color:#2B2B2B ;
+  	
+	}
+	.navbar2 li{
+		transition-duration: 0.5s;
+		width: 100%;
+		padding: 20px;
+		display: block;
+		border: none;
+		box-shadow: none;
+		background-color: #2B2B2B;
+	
+	}
+	.navbar2 li:hover{
+		background-color: #146C94 ;
+		color: #2B2B2B;
+		box-shadow: 
+    		inset 0px 11px 3px -10px black,
+    		inset 0px 11px 3px -10px black;
+    	transition-duration: 1s;
+	}
+	#closebar{
+		display: none;
+	}
+	.open{
+		display: block;
+	}
+	.closed{
+		display: block;
+	}
+	
+
+	
+
+
+	
+
+	
+}
+/*For Tablets and Big Devices*/
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+	*{
+		box-sizing: border-box;
+	}
+	.image{
+
+		width: 90%;
+		margin-top: 45px;
+		margin-left: 44px;
+	}
+	.info{
+		margin-top: 560px;
+		width: 90%;
+		height: 1200px;
+		margin-left:40px;
+	}
+	.attendance{
+		position: absolute;
+		top: 550px;
+		left: 37px;
+		width: 90%;
+		height: 25%;
+	}
+	.fees{
+		position: absolute;
+		top: 870px;
+		left: 37px;
+		width: 90%;
+		height: 25%;
+	}
+	.info table {
+		margin-top: 20px;
+		margin-left: 40px;
+		
+
+	}
+	.fees table{
+		display: flex;
+		justify-content: center;
+		margin-top: 180px;
+
+	}
+	.attendance span{
+		position: absolute;
+		z-index: 3;
+		font-size: 100px;
+		color: black;
+		top: 20%;
+		left: 45%;
+	}
+	.attendance table{
+		display: flex;
+		justify-content: center;
+		margin-top: 165px;
+
+
+	}
+	.attv{
+		color:#146C94 ;
+	}
+	.fees span{
+		position: absolute;
+		z-index: 3;
+		color: black;
+		font-size: 100px;
+		top: 20%;
+		left: 45%;
+
+	}
+	
+	.fees table tr td{
+		padding: 1px;
+		margin-top: 5px;
+	}
+	
+	img{
+		
+		height: 170px;
+		width: 170px;
+		border:2px solid black;
+		border-radius: 50%;
+		
+	}
+	.image h2{
+			color: #2B2B2B;
+			margin-top: 20px;
+ 			display: flex;
+ 			justify-content: center;
+	}
+	.image p{
+		
+		color: #2B2B2B;
+		text-align: center;
+		color: #146C94;
+		left: 46.5%;
+	}
+	.add{
+		font-size: 15px;
+	}
+
+
+
+}
+
